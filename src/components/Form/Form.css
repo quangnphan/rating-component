@@ -1,0 +1,77 @@
+.form{
+    padding: 30px;
+    background:radial-gradient(circle at top,#464f63 -50%, #151d29 50% 100%);
+    width: 370px;
+    height: auto;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.star{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    background-color:hsl(215, 16%, 26%);
+    margin-bottom: 30px;
+}
+button{
+    cursor: pointer;
+}
+h1{
+    color: #fff;
+    opacity: 0.8;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+p{
+    color: hsl(217, 12%, 63%);
+    opacity: 0.8;
+    font-size: 1rem;
+}
+.numbers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+}
+.number-button{
+    border:none;
+    font-size: 1rem;
+    color:hsl(217, 12%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    background-color:hsl(215, 16%, 26%);
+    transition: 0.4s all;
+}
+.number-button:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: #fff;
+}
+.submit-button button{
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 12px;
+    border-radius: 1.5rem;
+    background-color: hsl(25, 97%, 53%);
+    color: #fff;
+    transition: 0.4s all;
+}
+.submit-button button:hover{
+    background-color: #fff;
+    color:hsl(25, 97%, 53%);
+}
+.active{
+    background-color: hsl(216, 12%, 54%);
+    color: #fff;
+}
